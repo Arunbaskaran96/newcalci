@@ -1,0 +1,45 @@
+p{
+    padding-left: 50px;
+}
+
+#result{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 8px;
+    font-size: 15px;
+}
+
+.numbers,#add,#subtract,#clear{
+    height: 30px;
+    aspect-ratio: 1/1;
+    margin: 10px;
+    margin-left: 15px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+
+div{
+    background-color: gray;
+    display: inline-block;
+    border-radius: 15px;
+}
+#equal{
+    margin: 8px;
+    height: 28px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#title{
+    text-align: center;
+}
